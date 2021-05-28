@@ -47,6 +47,7 @@
     <Compile Include="CheckLeapYearOrNot.cs" />
     <Compile Include="FlipCoinHeadOrTail.cs" />
     <Compile Include="HarmonicNumber.cs" />
+    <Compile Include="PrimeFactorization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
