@@ -20,7 +20,8 @@ namespace Basic_Core_Program
             Console.WriteLine("5 For: Select Factors of number");
             Console.WriteLine("6 For: Select Quotient and Remainder");
             Console.WriteLine("7 For: Select Swap the Numbers");
-            Console.WriteLine("8:Select Even and Odd number");
+            Console.WriteLine("8 For :Select Even and Odd number");
+            Console.WriteLine("9 For: Select Alphabet Vowel");
             int selection = Convert.ToInt32(Console.ReadLine());
            
             // user selection
@@ -67,8 +68,13 @@ namespace Basic_Core_Program
                     EvenOrOdd EvenOdd = new EvenOrOdd();
                     EvenOdd.CheckEvenOrdd();
                     break;
+                case 9:
+                    // Vowel or Not
+                    VowelOrNot VowelNot = new VowelOrNot();
+                    VowelNot.CheckGivenVowel();
+                    break;
                 default:
-                    Console.WriteLine("Invalid Selection. Select inBetween 1 to 7");
+                    Console.WriteLine("Invalid Selection. Select in Between 1 to 9");
                     break;
             }
             Console.ReadLine();
