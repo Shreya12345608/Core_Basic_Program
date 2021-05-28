@@ -15,6 +15,7 @@ namespace Basic_Core_Program
             Console.WriteLine("------------------------------------");
             Console.WriteLine("1 For: Flip a Coin Head and Tail. ");
             Console.WriteLine("2 For: Select Value is Leap Year Or not");
+            Console.WriteLine("3 For: Select Power of 2 Number");
             int selection = Convert.ToInt32(Console.ReadLine());
            
             // user selection
@@ -30,6 +31,10 @@ namespace Basic_Core_Program
                     //CheckLeapYearOrNot
                     CheckLeapYearOrNot LeapYearOrNot = new CheckLeapYearOrNot();
                     LeapYearOrNot.LeapYear();
+                    break;
+                case 3:
+                    CalculatePowerOf2 CalPower = new CalculatePowerOf2();
+                    CalPower.CalcuOfPower();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection. Select inBetween 1 to 2");

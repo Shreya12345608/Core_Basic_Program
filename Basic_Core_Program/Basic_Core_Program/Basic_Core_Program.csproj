@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatePowerOf2.cs" />
     <Compile Include="CheckLeapYearOrNot.cs" />
     <Compile Include="FlipCoinHeadOrTail.cs" />
     <Compile Include="Program.cs" />
