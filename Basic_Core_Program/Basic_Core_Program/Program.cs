@@ -18,6 +18,7 @@ namespace Basic_Core_Program
             Console.WriteLine("3 For: Select Power of 2 Number");
             Console.WriteLine("4 For: Select the Harmonic Number");
             Console.WriteLine("5 For: Select Factors of number");
+            Console.WriteLine("6 For: Select Quotient and Remainder");
             int selection = Convert.ToInt32(Console.ReadLine());
            
             // user selection
@@ -48,6 +49,11 @@ namespace Basic_Core_Program
                     //Prime Factor
                     PrimeFactorization PrimeFactor = new PrimeFactorization();
                     PrimeFactor.CalcSFactorialSeries();
+                    break;
+                case 6:
+                    //Prime Factor
+                    QusRemaindercs QuesRem = new QusRemaindercs();
+                    QuesRem.QuotientRemainder();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection. Select inBetween 1 to 2");
