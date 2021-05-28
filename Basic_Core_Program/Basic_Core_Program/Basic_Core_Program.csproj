@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CalculatePowerOf2.cs" />
     <Compile Include="CheckLeapYearOrNot.cs" />
+    <Compile Include="EvenOrOdd.cs" />
     <Compile Include="FlipCoinHeadOrTail.cs" />
     <Compile Include="HarmonicNumber.cs" />
     <Compile Include="PrimeFactorization.cs" />
